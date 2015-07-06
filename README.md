@@ -1,9 +1,13 @@
 Workshop de Integración Continua
 ================================
 
+> "Kent Beck publicó en su escrito inaugural de eXtreme Programming su propuesta, en donde los desarrolladores deberían 'integrar y probar varias veces al día', la cual fue revolucionaria. Consagrado en XP como la regla de _Integración a menudo_, la frecuente integración del código principal permitirá a los desarrolladores rapidamente descubrir los problemas de integración y reducir el costo de desarrollo"
+
 CI es una práctica de desarrollo que requiere que los desarrolladores integren código en un repositorio compartido varias veces al día. Cada registro en el repositorio es verificado por una construcción automática, permitiendo a los equipos detectar problemas lo más rápido posible.
 
 Al integrar regularmente, podemos detectar errores rápidamente, y ubicarlos más fácilmente.
+
+Si bien podemos revisar los valores y principios del **manifiesto ágil** para ver como esto se alinea con dicha filosofía.
 
 ## Resolver problemas rápidamente
 
@@ -66,3 +70,20 @@ Muchos equipos desarrollan rituales en torno a estas políticas, es decir, los e
 - Esencialmente, "es la práctica de liberar cada construcción buena a los usuarios"
 - Con esta práctica no sólo se reducen riesgos y se atrapan errores rápidamente, sino que se avanza más rápido construyendo software
 - Con liberaciones de bajo riesgo, podemos rápidamente adaptar los requerimientos de negocio y las necesidades de usuario. Permitiendo una gran colaboración entre la operación y la entrega, impulsando un cambio real en la organización, y convirtiendo el proceso de liberación en una ventaja empresarial.
+- No visto en este Workshop
+
+### Comunicación, inspección y adaptación
+
+- El servidor de CI puede informar por varios medios acerca de los estados de ejecución
+- Adicionalmente, podemos obtener más datos de las pruebas que nos servirán para mejorar la calidad del software(Métricas)
+- Podremos determinar la cantidad de código que se esta probando, y determinar si existen piezas de software sin probar o sin usar
+- Podremos identificar varias áreas de oportunidad en función del proyecto/empresa en la que estemos
+- Podremos implementar herramientas de monitoreo y reporteo que permiten determinar la salud de la aplicación
+
+#### Tecnología
+
+CI: Jenkins, Travis CI, ThoughtWorks GO, CircleCI, JetBrains TeamCity, Atlassian Bamboo
+Code Metrics: SonarQube, SLOC (and variants), SciTools Understand
+Version Control: Git, Mercurial, Perforce, Subversion, TFS
+Artifact Repository Managers: Archiva, Artifactory, Nexus (roll-your-own with zip files, metadata, shared storage, and access controls)
+Language-specific package Managers: Composer (PHP), Ruby Gems, npm (Node.js), Python PIP
