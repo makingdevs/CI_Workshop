@@ -13,7 +13,7 @@ Si bien podemos revisar los valores y principios del **manifiesto ágil** para v
 
 Debido a que estamos integrando tan frecuentemente, existe significativamente menos rastreo para descubrir que cosas están mal, de tal forma que podemos gastar más tiempo en construir nuevas características.
 
-La integración continua es barata. No integrar de forma continua puede resulñtar muy caro, si no seguimos una aproximaciòn de continuidad tendremos períodos largos de integración. Esto hace exponecialmente más díficil encontrar y arreglar problemas. Dichos problemas de integración pueden golpear fácilmente un proyecto fuera de tiempo, o simplemente hacer que falle.
+La integración continua es barata. No integrar de forma continua puede resultar muy caro, si no seguimos una aproximaciòn de continuidad tendremos períodos largos de integración. Esto hace exponecialmente más díficil encontrar y arreglar problemas. Dichos problemas de integración pueden golpear fácilmente un proyecto fuera de tiempo, o simplemente hacer que falle.
 
 CI simplemente brinda los siguientes beneficios a las organizaciones:
 
@@ -66,7 +66,7 @@ Muchos equipos desarrollan rituales en torno a estas políticas, es decir, los e
 
 ### Despliegue continuo
 
-- El despliegue continua está cercamente relacionado a la Integración Continua, y se refiera a la liberación en producción de software que pasa las pruebas automatizadas
+- El despliegue continuo está cercamente relacionado a la Integración Continua, y se refiera a la liberación en producción de software que pasa las pruebas automatizadas
 - Esencialmente, "es la práctica de liberar cada construcción buena a los usuarios"
 - Con esta práctica no sólo se reducen riesgos y se atrapan errores rápidamente, sino que se avanza más rápido construyendo software
 - Con liberaciones de bajo riesgo, podemos rápidamente adaptar los requerimientos de negocio y las necesidades de usuario. Permitiendo una gran colaboración entre la operación y la entrega, impulsando un cambio real en la organización, y convirtiendo el proceso de liberación en una ventaja empresarial.
